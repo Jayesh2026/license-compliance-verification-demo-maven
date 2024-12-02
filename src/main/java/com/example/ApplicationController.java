@@ -9,6 +9,6 @@ public class ApplicationController {
     
     @GetMapping("/")
     public ResponseEntity<String> greetings(){
-        return ResponseEntity.ok("Hello World! Your most welcome here...");
+        return ResponseEntity.ok("Hello World! Your most welcome here from spring maven...");
     }
 }
